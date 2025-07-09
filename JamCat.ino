@@ -86,7 +86,7 @@ void setup() {
   display.print("Connecting to WiFi");
   display.display();
 
-  WiFi.begin("POCO M4 Pro", "rrrrrrrr", 6);
+  WiFi.begin("Your SSID", "Your Password", 6);
   while (WiFi.status() != WL_CONNECTED) {
     delay(250);
   }
